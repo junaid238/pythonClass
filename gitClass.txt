@@ -1,0 +1,97 @@
+PYTHON
+------
+user defined exceptions
+
+try except 
+
+area --> 1000 
+
+
+Exception 
+	- IO
+	- import 
+	- ZDE
+
+class userEx(Exception):
+
+class Error(Exception):
+	pass
+
+
+class maxLimiterror(Error):
+	pass
+class minLimiterror(Error):
+	print("Value is too small ")
+
+num = 100 
+
+try:
+	n = input("Enter the number to check")
+	if(num < n ):
+		raise maxLimiterror
+	else(num > n):
+		raise minLimiterror
+
+except minLimiterror , maxLimiterror:
+	print("Error occured")
+
+for 10 --> 2 
+
+except Exception as e:
+	print(i)
+----------------------------------------
+
+Git -- VCS
+
+areas, regions ---> working
+					staging
+					repository
+			stash
+					remote repository
+
+remote repository --> github , bitbucket
+
+laptop --> .git --> remote repo 
+
+
+file add staging commit repo push remote repo
+
+
+repo 		push remote repo
+
+remote repo  fetch   repo
+
+remote repo  pull    working
+
+push 
+
+pull   
+
+fetch
+
+
+.gitignore 
+
+server.conf
+.DS_store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
